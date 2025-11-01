@@ -1,60 +1,36 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# BuilderAssist — Construction VA Mini‑Site
+## Getting Started
 
-Static site generated from a PRD. Includes:
-- `index.html` (landing), `positions.html`, `pricing.html`, `why-now.html`, `case-study-template.html`
-- Minimal CSS embedded inline
-- Ready for GitHub → Vercel deploy
-
-## 1) Local preview
-Just open `index.html` in your browser.
-
-## 2) Push to your GitHub repo
-Replace the repo URL with yours if different.
+First, run the development server:
 
 ```bash
-# Clone your empty repo
-git clone https://github.com/george550/constructionVA
-cd constructionVA
-
-# Copy site files into the repo (adjust the path to your download location)
-# On macOS after downloading/unzipping, e.g.:
-cp -R ~/Downloads/construction_va_site/* .
-
-# Optional: add a simple vercel.json (already included here)
-git add .
-git commit -m "Initial commit: construction VA mini-site"
-git push origin main  # or 'master' if that's your default
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-If the repo has no default branch yet:
-```bash
-git checkout -b main
-git push -u origin main
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 3) Deploy on Vercel
-1. Go to https://vercel.com/new
-2. Import the GitHub repo `george550/constructionVA`
-3. Framework Preset: **Other**
-4. Build Command: _None_ (leave empty)
-5. Output Directory: **/**
-6. Deploy
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 4) Connect your domain (optional)
-- In Vercel → Project → Settings → Domains
-- Add `builder.integrated.tech` (or any subdomain) and follow the DNS instructions
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 5) Customize content
-Edit these in the HTML:
-- Email: search for `hello@example.com` and replace
-- Calendly: search for `Open Calendly` link and replace `href="#"` with your scheduling link
-- Brand name: search for `BuilderAssist` to rename
-- Pricing: `pricing.html`
-- Proof points (stats): `why-now.html`
-- Roles/Tasks: `positions.html`
+## Learn More
 
-## 6) Recommended next tweaks
-- Add Open Graph tags, favicon
-- Hook up analytics (PostHog/GA4 snippet)
-- Add a contact form (Formspree / Netlify Forms / Vercel serverless function)
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

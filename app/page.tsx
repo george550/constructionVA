@@ -6,11 +6,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-              Keep Your Projects on Track with<br />Construction-Savvy Support
+              Complete Business Support for<br />Construction Companies
             </h1>
             <p className="text-xl text-slate-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-              We provide trained virtual assistants who understand construction drawings, RFIs,
-              schedules, and documentation — so your projects stay organized and on time.
+              We provide trained virtual assistants who handle everything from project coordination and bidding
+              to marketing, SEO, and admin work — so you can focus on building while we help grow your business.
             </p>
             <a
               href="/contact"
@@ -24,15 +24,15 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div className="bg-white p-6 rounded-lg shadow-md text-center border-t-4 border-orange-600">
               <div className="text-3xl font-bold text-slate-900 mb-2">40+ Hours</div>
-              <p className="text-slate-600">Saved Monthly</p>
+              <p className="text-slate-600">Saved Monthly Per Client</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center border-t-4 border-blue-900">
-              <div className="text-3xl font-bold text-slate-900 mb-2">Expert Training</div>
-              <p className="text-slate-600">Procore, Buildertrend & QuickBooks</p>
+              <div className="text-3xl font-bold text-slate-900 mb-2">Full Service</div>
+              <p className="text-slate-600">Projects, Marketing, Admin & Growth</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center border-t-4 border-orange-600">
-              <div className="text-3xl font-bold text-slate-900 mb-2">Trusted Nationwide</div>
-              <p className="text-slate-600">By Contractors Across the U.S.</p>
+              <div className="text-3xl font-bold text-slate-900 mb-2">Small Business</div>
+              <p className="text-slate-600">Focused on Contractor Success</p>
             </div>
           </div>
         </div>
@@ -42,9 +42,10 @@ export default function Home() {
       <section className="bg-white py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-xl text-slate-700 leading-relaxed">
-            BuilderAssist connects construction companies with experienced virtual assistants who know the job.
-            Whether it's organizing drawings, tracking RFIs, or keeping the project log up to date,
-            we help you stay on schedule and focused on the work in the field.
+            BuilderAssist is your complete business partner for construction companies. We provide experienced virtual
+            assistants who understand your industry — from managing project documentation and winning bids to building
+            your online presence and getting more customers through the door. Think of us as your dedicated team member
+            who handles everything you don't have time for.
           </p>
         </div>
       </section>
@@ -52,43 +53,89 @@ export default function Home() {
       {/* How We Help */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-slate-900 mb-16">
-            How We Help
+          <h2 className="text-4xl font-bold text-center text-slate-900 mb-6">
+            Complete Support for Your Construction Business
           </h2>
-          <div className="grid md:grid-cols-3 gap-10">
+          <p className="text-xl text-slate-600 text-center mb-16 max-w-3xl mx-auto">
+            From project management to winning new business, we handle it all
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Project Management */}
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="w-14 h-14 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-8 h-8 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">Stay Organized</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Project Coordination</h3>
               <p className="text-slate-600 leading-relaxed">
-                Manage technical drawings, revisions, project folders, RFIs, and submittals.
+                Manage drawings, RFIs, submittals, change orders, schedules, and keep your projects organized and on track.
               </p>
             </div>
 
+            {/* Bidding & Estimating */}
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-8 h-8 text-blue-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">Stay on Schedule</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Bidding & Estimating</h3>
               <p className="text-slate-600 leading-relaxed">
-                Follow up on vendors, change orders, maintain calendars, and align field-office communication.
+                Research opportunities, prepare professional bids, manage submissions, and follow up to win more work.
               </p>
             </div>
 
+            {/* Financial Management */}
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="w-14 h-14 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-8 h-8 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">Stay on Budget</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Financial & Bookkeeping</h3>
               <p className="text-slate-600 leading-relaxed">
-                Assist with billing, pay apps, job costing, invoices, and lien waivers.
+                Handle billing, pay apps, invoicing, job costing, lien waivers, and keep your books organized in QuickBooks.
+              </p>
+            </div>
+
+            {/* Marketing & SEO */}
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <div className="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-8 h-8 text-blue-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Marketing & SEO</h3>
+              <p className="text-slate-600 leading-relaxed">
+                Build your online presence, improve local SEO rankings, manage Google reviews, and create content to attract customers.
+              </p>
+            </div>
+
+            {/* Website Management */}
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <div className="w-14 h-14 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-8 h-8 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Website & Digital Presence</h3>
+              <p className="text-slate-600 leading-relaxed">
+                Update your website, showcase completed projects, manage social media, and make sure customers can find you online.
+              </p>
+            </div>
+
+            {/* Administrative Support */}
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <div className="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-8 h-8 text-blue-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Administrative Support</h3>
+              <p className="text-slate-600 leading-relaxed">
+                Answer phones, schedule appointments, manage emails, handle permits, and take care of all the office work.
               </p>
             </div>
           </div>

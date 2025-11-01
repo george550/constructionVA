@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BuilderAssist | Construction-Savvy Virtual Assistants",
-  description: "Professional virtual assistants specialized in construction industry workflows",
+  title: "BuilderAssist | Complete Business Support for Construction Companies",
+  description: "Full-service virtual assistants for construction businesses. We handle project coordination, bidding, bookkeeping, marketing, SEO, and admin work so you can focus on building.",
 };
 
 export default function RootLayout({
