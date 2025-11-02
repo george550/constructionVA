@@ -6,7 +6,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-              Construction-Trained Virtual Assistants.<br />Pay Only for What You Need.
+              Construction-Trained Virtual Assistants.<br />Pay per Task. No Commitments.
             </h1>
             <p className="text-xl text-slate-600 mb-8 max-w-4xl mx-auto leading-relaxed">
               Professional assistants who handle your admin, bidding, bookkeeping, and marketing — one task at a time.
