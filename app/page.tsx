@@ -6,11 +6,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-              Pay Only for the Tasks You Need.<br />No Contracts. No Commitments.
+              Construction-Trained Virtual Assistants.<br />Pay Only for What You Need.
             </h1>
             <p className="text-xl text-slate-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-              Construction-trained virtual assistants who handle your admin, bidding, bookkeeping, and marketing —
-              one task at a time. Pay by the hour. Use us when you need us.
+              Professional assistants who handle your admin, bidding, bookkeeping, and marketing — one task at a time.
+              No contracts. No commitments. Just pay by the hour and use us when you need us.
             </p>
             <div className="flex justify-center gap-4 flex-wrap">
               <a
